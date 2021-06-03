@@ -1,8 +1,10 @@
 name: Cloud Custodian Policy
 
 on:
-  schedule:
-    - cron: '*/5 * * * *'
+  push
+#on:
+#  schedule:
+#    - cron: '*/5 * * * *'
 
 jobs:
   deploy:
